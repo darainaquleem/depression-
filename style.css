@@ -64,6 +64,14 @@ main {
 .hero_content h1 {
   font-size: 8rem;
   line-height: 1.2;
+  animation-name: heading;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes heading{
+  80%{color: rgb(150, 25, 25);}
+  20%{ color: black;}
+}
 }
 .hero_content h4 {
   font-size: 2.5rem;
